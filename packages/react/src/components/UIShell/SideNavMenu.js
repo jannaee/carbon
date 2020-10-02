@@ -170,7 +170,7 @@ export class SideNavMenu extends React.Component {
             <ChevronDown20 />
           </SideNavIcon>
         </button>
-        <ul className={`${prefix}--side-nav__menu`}>{children}</ul>
+        <ul className={`${prefix}--side-nav__menu role="menu"`}>{children}</ul>
       </li>
     );
   }
